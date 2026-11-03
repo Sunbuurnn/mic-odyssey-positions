@@ -1,0 +1,293 @@
+{
+  "_aide": "Données du suivi MIC Odyssey. À mettre à jour après chaque classement officiel (à la main ou par un script). Le site relit ce fichier toutes les 5 minutes pendant la course. Heures en ISO 8601 avec fuseau, par exemple 2026-11-06T11:00:00+01:00. Laisser null ce qu'on ne connaît pas encore.",
+  "phase": "auto",
+  "_phase": "auto : calculée depuis l'heure (avant le départ, en course, arrivée). Forcer avec \"avant\", \"course\" ou \"arrivee\".",
+  "apercu": false,
+  "_apercu": "true affiche le sélecteur d'aperçu des trois états, avec des données d'exemple. Passer à false à la mise en ligne.",
+  "course": {
+    "nom": "Route du Rhum – Destination Guadeloupe",
+    "edition": 13,
+    "depart": "2026-11-01T13:02:00+01:00",
+    "villageDepart": "2026-10-20T00:00:00+02:00",
+    "villageArrivee": "2026-11-06T00:00:00-04:00",
+    "distanceOfficielleMilles": 3542,
+    "flotteClass40": 49,
+    "portDepart": {
+      "nom": "Saint-Malo",
+      "lat": 48.6493,
+      "lon": -2.0257
+    },
+    "portArrivee": {
+      "nom": "Pointe-à-Pitre",
+      "lat": 16.2411,
+      "lon": -61.5331
+    }
+  },
+  "liens": {
+    "cartographieClass40": "https://carto.routedurhum.com/fr/index.html?cl=1",
+    "_cartographieClass40": "Cartographie officielle filtrée sur les Class40 (cl=1), adresse donnée par l'Association Class40 le 30.10.2026.",
+    "mic": "https://www.medtechindustrialcampus.com/"
+  },
+  "direct": {
+    "miseAJour": "2026-11-03T09:00:00Z",
+    "lat": 48.9585,
+    "lon": -13.4744,
+    "classementClass40": 40,
+    "vitesseNoeuds": 8.6,
+    "capDegres": 248,
+    "distanceAuButMilles": 3098.3,
+    "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
+    "statut": "RAC",
+    "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
+  },
+  "trace": [
+    {
+      "t": "2026-11-01T07:00:00Z",
+      "lat": 48.6437,
+      "lon": -2.0222
+    },
+    {
+      "t": "2026-11-01T08:00:00Z",
+      "lat": 48.6451,
+      "lon": -2.0418
+    },
+    {
+      "t": "2026-11-01T12:05:00Z",
+      "lat": 48.7322,
+      "lon": -1.8982
+    },
+    {
+      "t": "2026-11-01T13:05:00Z",
+      "lat": 48.7414,
+      "lon": -2.0758
+    },
+    {
+      "t": "2026-11-01T14:05:00Z",
+      "lat": 48.7152,
+      "lon": -2.3054
+    },
+    {
+      "t": "2026-11-01T15:15:00Z",
+      "lat": 48.8008,
+      "lon": -2.5618
+    },
+    {
+      "t": "2026-11-01T16:15:00Z",
+      "lat": 48.8938,
+      "lon": -2.7736
+    },
+    {
+      "t": "2026-11-01T17:15:00Z",
+      "lat": 48.924,
+      "lon": -3.0005
+    },
+    {
+      "t": "2026-11-01T18:15:00Z",
+      "lat": 48.928,
+      "lon": -3.2413
+    },
+    {
+      "t": "2026-11-01T19:15:00Z",
+      "lat": 48.9272,
+      "lon": -3.4928
+    },
+    {
+      "t": "2026-11-01T20:15:01Z",
+      "lat": 48.9135,
+      "lon": -3.7679
+    },
+    {
+      "t": "2026-11-01T21:30:00Z",
+      "lat": 48.8997,
+      "lon": -4.1447
+    },
+    {
+      "t": "2026-11-01T22:30:00Z",
+      "lat": 48.8855,
+      "lon": -4.4672
+    },
+    {
+      "t": "2026-11-01T23:30:00Z",
+      "lat": 48.9373,
+      "lon": -4.7501
+    },
+    {
+      "t": "2026-11-02T00:30:00Z",
+      "lat": 49.0031,
+      "lon": -4.9995
+    },
+    {
+      "t": "2026-11-02T01:30:00Z",
+      "lat": 49.0624,
+      "lon": -5.2642
+    },
+    {
+      "t": "2026-11-02T02:30:00Z",
+      "lat": 49.1019,
+      "lon": -5.5185
+    },
+    {
+      "t": "2026-11-02T03:30:00Z",
+      "lat": 49.1556,
+      "lon": -5.8293
+    },
+    {
+      "t": "2026-11-02T04:30:00Z",
+      "lat": 49.2381,
+      "lon": -6.1386
+    },
+    {
+      "t": "2026-11-02T05:30:00Z",
+      "lat": 49.2588,
+      "lon": -6.4652
+    },
+    {
+      "t": "2026-11-02T06:30:00Z",
+      "lat": 49.295,
+      "lon": -6.7544
+    },
+    {
+      "t": "2026-11-02T07:30:00Z",
+      "lat": 49.3378,
+      "lon": -6.9862
+    },
+    {
+      "t": "2026-11-02T08:30:01Z",
+      "lat": 49.394,
+      "lon": -7.257
+    },
+    {
+      "t": "2026-11-02T09:45:00Z",
+      "lat": 49.4829,
+      "lon": -7.64
+    },
+    {
+      "t": "2026-11-02T10:45:00Z",
+      "lat": 49.5533,
+      "lon": -7.9348
+    },
+    {
+      "t": "2026-11-02T11:45:00Z",
+      "lat": 49.6391,
+      "lon": -8.1238
+    },
+    {
+      "t": "2026-11-02T12:45:01Z",
+      "lat": 49.715,
+      "lon": -8.3346
+    },
+    {
+      "t": "2026-11-02T14:00:00Z",
+      "lat": 49.7719,
+      "lon": -8.6387
+    },
+    {
+      "t": "2026-11-02T15:00:00Z",
+      "lat": 49.8267,
+      "lon": -8.8894
+    },
+    {
+      "t": "2026-11-02T16:00:00Z",
+      "lat": 49.898,
+      "lon": -9.145
+    },
+    {
+      "t": "2026-11-02T17:00:00Z",
+      "lat": 49.9767,
+      "lon": -9.4095
+    },
+    {
+      "t": "2026-11-02T18:00:00Z",
+      "lat": 50.0896,
+      "lon": -9.7036
+    },
+    {
+      "t": "2026-11-02T19:00:00Z",
+      "lat": 50.0042,
+      "lon": -9.9953
+    },
+    {
+      "t": "2026-11-02T20:00:00Z",
+      "lat": 49.8783,
+      "lon": -10.2971
+    },
+    {
+      "t": "2026-11-02T21:00:00Z",
+      "lat": 49.7591,
+      "lon": -10.5913
+    },
+    {
+      "t": "2026-11-02T22:00:00Z",
+      "lat": 49.6629,
+      "lon": -10.8911
+    },
+    {
+      "t": "2026-11-02T23:00:00Z",
+      "lat": 49.574,
+      "lon": -11.1962
+    },
+    {
+      "t": "2026-11-03T00:00:00Z",
+      "lat": 49.4859,
+      "lon": -11.4868
+    },
+    {
+      "t": "2026-11-03T01:00:00Z",
+      "lat": 49.4157,
+      "lon": -11.7447
+    },
+    {
+      "t": "2026-11-03T02:00:00Z",
+      "lat": 49.3627,
+      "lon": -11.9952
+    },
+    {
+      "t": "2026-11-03T03:00:00Z",
+      "lat": 49.3459,
+      "lon": -12.2421
+    },
+    {
+      "t": "2026-11-03T04:00:00Z",
+      "lat": 49.2898,
+      "lon": -12.4371
+    },
+    {
+      "t": "2026-11-03T05:00:00Z",
+      "lat": 49.2226,
+      "lon": -12.6909
+    },
+    {
+      "t": "2026-11-03T06:00:01Z",
+      "lat": 49.1521,
+      "lon": -12.8973
+    },
+    {
+      "t": "2026-11-03T07:15:00Z",
+      "lat": 49.0391,
+      "lon": -13.1134
+    },
+    {
+      "t": "2026-11-03T08:15:00Z",
+      "lat": 48.9949,
+      "lon": -13.3286
+    },
+    {
+      "t": "2026-11-03T09:00:00Z",
+      "lat": 48.9585,
+      "lon": -13.4744
+    }
+  ],
+  "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
+  "arrivee": {
+    "heure": null,
+    "classementFinalClass40": null,
+    "tempsDeCourse": null,
+    "_tempsDeCourse": "Texte officiel, par exemple \"14 j 12 h 12 min 36 s\". Si null, le site le calcule depuis l'heure de départ."
+  },
+  "source": {
+    "fournisseur": "Geovoile, cartographie officielle",
+    "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
+    "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
+    "recupereLe": "2026-11-03T09:10:01Z"
+  }
+}
