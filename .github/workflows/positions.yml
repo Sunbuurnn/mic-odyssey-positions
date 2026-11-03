@@ -4,7 +4,8 @@ name: Position MIC Odyssey
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    # 14, 34 et 54 : hors des heures pleines, où GitHub retarde les lancements ; la carte publie vers h+10
+    - cron: '14,34,54 * * * *'
   workflow_dispatch:
 
 permissions:
