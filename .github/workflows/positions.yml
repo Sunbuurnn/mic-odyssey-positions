@@ -1,0 +1,43 @@
+# Toutes les 20 minutes : relève la position de MIC Odyssey sur la cartographie officielle Class40 et l'enregistre dans
+# data/course.json. Les sites (extension WordPress « MIC Odyssey · position en direct ») viennent chercher ce fichier.
+name: Position MIC Odyssey
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: positions
+  cancel-in-progress: false
+
+jobs:
+  releve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Relevé sur la cartographie Class40
+        run: |
+          set +e
+          node outils/positions.mjs --sans-ais --url "https://carto.routedurhum.com/fr/index.html?cl=1" --chrome "$(command -v google-chrome || command -v chromium)"
+          code=$?
+          # 2 = rien à lire sur la carte (pas de classement) : pas une erreur
+          [ "$code" -eq 0 ] || [ "$code" -eq 2 ]
+
+      - name: Enregistrement
+        run: |
+          git config user.name "positions MIC Odyssey"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/course.json
+          if git diff --cached --quiet; then echo "Position inchangée."; exit 0; fi
+          git commit -m "Position du $(node -p "require('./data/course.json').direct.miseAJour")"
+          git push
