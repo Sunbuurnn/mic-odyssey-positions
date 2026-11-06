@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-06T00:00:00Z",
-    "lat": 45.4659,
-    "lon": -25.8924,
+    "miseAJour": "2026-11-06T06:00:00Z",
+    "lat": 45.6233,
+    "lon": -26.7569,
     "classementClass40": 38,
-    "vitesseNoeuds": 12.7,
-    "capDegres": 264,
-    "distanceAuButMilles": 2553.4,
+    "vitesseNoeuds": 5.3,
+    "capDegres": 298,
+    "distanceAuButMilles": 2528.1,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -587,9 +587,39 @@
       "lon": -25.6672
     },
     {
-      "t": "2026-11-06T00:00:00Z",
-      "lat": 45.4659,
-      "lon": -25.8924
+      "t": "2026-11-06T00:15:00Z",
+      "lat": 45.4656,
+      "lon": -25.9675
+    },
+    {
+      "t": "2026-11-06T01:15:00Z",
+      "lat": 45.4954,
+      "lon": -26.171
+    },
+    {
+      "t": "2026-11-06T02:15:00Z",
+      "lat": 45.5077,
+      "lon": -26.3068
+    },
+    {
+      "t": "2026-11-06T03:15:01Z",
+      "lat": 45.5077,
+      "lon": -26.4432
+    },
+    {
+      "t": "2026-11-06T04:30:00Z",
+      "lat": 45.5639,
+      "lon": -26.5862
+    },
+    {
+      "t": "2026-11-06T05:30:00Z",
+      "lat": 45.603,
+      "lon": -26.7017
+    },
+    {
+      "t": "2026-11-06T06:00:00Z",
+      "lat": 45.6233,
+      "lon": -26.7569
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -603,6 +633,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-06T00:09:40Z"
+    "recupereLe": "2026-11-06T06:31:13Z"
   }
 }
