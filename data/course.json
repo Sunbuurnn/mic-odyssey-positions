@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-09T08:00:00Z",
-    "lat": 39.2979,
-    "lon": -36.1643,
+    "miseAJour": "2026-11-09T19:00:00Z",
+    "lat": 38.1035,
+    "lon": -37.378,
     "classementClass40": 37,
-    "vitesseNoeuds": 7.2,
-    "capDegres": 205,
-    "distanceAuButMilles": 1968.7,
+    "vitesseNoeuds": 6.8,
+    "capDegres": 220,
+    "distanceAuButMilles": 1879.5,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -980,6 +980,61 @@
       "t": "2026-11-09T08:00:00Z",
       "lat": 39.2979,
       "lon": -36.1643
+    },
+    {
+      "t": "2026-11-09T09:00:00Z",
+      "lat": 39.1569,
+      "lon": -36.2678
+    },
+    {
+      "t": "2026-11-09T10:00:00Z",
+      "lat": 39.0249,
+      "lon": -36.3855
+    },
+    {
+      "t": "2026-11-09T11:00:00Z",
+      "lat": 38.9193,
+      "lon": -36.4933
+    },
+    {
+      "t": "2026-11-09T12:00:01Z",
+      "lat": 38.8247,
+      "lon": -36.6241
+    },
+    {
+      "t": "2026-11-09T13:15:00Z",
+      "lat": 38.6829,
+      "lon": -36.7354
+    },
+    {
+      "t": "2026-11-09T14:15:00Z",
+      "lat": 38.565,
+      "lon": -36.8557
+    },
+    {
+      "t": "2026-11-09T15:15:00Z",
+      "lat": 38.4452,
+      "lon": -36.9818
+    },
+    {
+      "t": "2026-11-09T16:15:00Z",
+      "lat": 38.3422,
+      "lon": -37.1047
+    },
+    {
+      "t": "2026-11-09T17:15:00Z",
+      "lat": 38.2481,
+      "lon": -37.2353
+    },
+    {
+      "t": "2026-11-09T18:15:00Z",
+      "lat": 38.1723,
+      "lon": -37.305
+    },
+    {
+      "t": "2026-11-09T19:00:00Z",
+      "lat": 38.1035,
+      "lon": -37.378
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -993,6 +1048,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-09T08:42:32Z"
+    "recupereLe": "2026-11-09T19:13:14Z"
   }
 }
