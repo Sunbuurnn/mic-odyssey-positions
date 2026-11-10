@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-10T09:00:00Z",
-    "lat": 36.8701,
-    "lon": -37.7295,
+    "miseAJour": "2026-11-10T17:00:00Z",
+    "lat": 36.191,
+    "lon": -38.521,
     "classementClass40": 38,
-    "vitesseNoeuds": 8.5,
-    "capDegres": 163,
-    "distanceAuButMilles": 1820.7,
+    "vitesseNoeuds": 7.2,
+    "capDegres": 208,
+    "distanceAuButMilles": 1765.6,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -1102,9 +1102,49 @@
       "lon": -37.7577
     },
     {
-      "t": "2026-11-10T09:00:00Z",
-      "lat": 36.8701,
-      "lon": -37.7295
+      "t": "2026-11-10T09:30:00Z",
+      "lat": 36.803,
+      "lon": -37.7048
+    },
+    {
+      "t": "2026-11-10T10:30:00Z",
+      "lat": 36.6986,
+      "lon": -37.7541
+    },
+    {
+      "t": "2026-11-10T11:30:00Z",
+      "lat": 36.6052,
+      "lon": -37.8998
+    },
+    {
+      "t": "2026-11-10T12:30:00Z",
+      "lat": 36.5231,
+      "lon": -38.0452
+    },
+    {
+      "t": "2026-11-10T13:30:00Z",
+      "lat": 36.4526,
+      "lon": -38.188
+    },
+    {
+      "t": "2026-11-10T14:30:00Z",
+      "lat": 36.3929,
+      "lon": -38.3106
+    },
+    {
+      "t": "2026-11-10T15:30:00Z",
+      "lat": 36.3232,
+      "lon": -38.3996
+    },
+    {
+      "t": "2026-11-10T16:30:00Z",
+      "lat": 36.2426,
+      "lon": -38.4832
+    },
+    {
+      "t": "2026-11-10T17:00:00Z",
+      "lat": 36.191,
+      "lon": -38.521
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -1118,6 +1158,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-10T09:41:15Z"
+    "recupereLe": "2026-11-10T17:20:03Z"
   }
 }
