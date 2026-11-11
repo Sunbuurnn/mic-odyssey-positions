@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-11T09:00:00Z",
-    "lat": 35.3217,
-    "lon": -38.9704,
+    "miseAJour": "2026-11-11T17:00:00Z",
+    "lat": 34.7986,
+    "lon": -40.009,
     "classementClass40": 38,
-    "vitesseNoeuds": 5.7,
-    "capDegres": 142,
-    "distanceAuButMilles": 1716.1,
+    "vitesseNoeuds": 9.7,
+    "capDegres": 217,
+    "distanceAuButMilles": 1656.2,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -1222,9 +1222,49 @@
       "lon": -38.9878
     },
     {
-      "t": "2026-11-11T09:00:00Z",
-      "lat": 35.3217,
-      "lon": -38.9704
+      "t": "2026-11-11T09:45:00Z",
+      "lat": 35.3113,
+      "lon": -39.0806
+    },
+    {
+      "t": "2026-11-11T10:45:00Z",
+      "lat": 35.2883,
+      "lon": -39.2761
+    },
+    {
+      "t": "2026-11-11T11:45:00Z",
+      "lat": 35.2524,
+      "lon": -39.4474
+    },
+    {
+      "t": "2026-11-11T12:45:00Z",
+      "lat": 35.2088,
+      "lon": -39.6271
+    },
+    {
+      "t": "2026-11-11T13:45:00Z",
+      "lat": 35.2122,
+      "lon": -39.7892
+    },
+    {
+      "t": "2026-11-11T14:45:00Z",
+      "lat": 35.0908,
+      "lon": -39.7895
+    },
+    {
+      "t": "2026-11-11T15:45:00Z",
+      "lat": 34.9607,
+      "lon": -39.8666
+    },
+    {
+      "t": "2026-11-11T16:45:00Z",
+      "lat": 34.8309,
+      "lon": -39.9798
+    },
+    {
+      "t": "2026-11-11T17:00:00Z",
+      "lat": 34.7986,
+      "lon": -40.009
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -1238,6 +1278,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-11T09:17:05Z"
+    "recupereLe": "2026-11-11T17:21:22Z"
   }
 }
