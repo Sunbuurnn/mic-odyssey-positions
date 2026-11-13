@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-13T08:00:00Z",
-    "lat": 31.0221,
-    "lon": -41.1449,
+    "miseAJour": "2026-11-13T16:00:00Z",
+    "lat": 30.465,
+    "lon": -41.7139,
     "classementClass40": 38,
-    "vitesseNoeuds": 3.1,
-    "capDegres": 210,
-    "distanceAuButMilles": 1478,
+    "vitesseNoeuds": 4.4,
+    "capDegres": 260,
+    "distanceAuButMilles": 1435.2,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -1447,9 +1447,49 @@
       "lon": -41.138
     },
     {
-      "t": "2026-11-13T08:00:00Z",
-      "lat": 31.0221,
-      "lon": -41.1449
+      "t": "2026-11-13T08:45:00Z",
+      "lat": 30.9832,
+      "lon": -41.1795
+    },
+    {
+      "t": "2026-11-13T09:45:00Z",
+      "lat": 30.92,
+      "lon": -41.2471
+    },
+    {
+      "t": "2026-11-13T10:45:00Z",
+      "lat": 30.8177,
+      "lon": -41.3158
+    },
+    {
+      "t": "2026-11-13T11:45:00Z",
+      "lat": 30.7482,
+      "lon": -41.3827
+    },
+    {
+      "t": "2026-11-13T12:45:00Z",
+      "lat": 30.6509,
+      "lon": -41.4491
+    },
+    {
+      "t": "2026-11-13T13:45:00Z",
+      "lat": 30.5527,
+      "lon": -41.5092
+    },
+    {
+      "t": "2026-11-13T14:45:00Z",
+      "lat": 30.4916,
+      "lon": -41.6121
+    },
+    {
+      "t": "2026-11-13T15:45:00Z",
+      "lat": 30.4683,
+      "lon": -41.6931
+    },
+    {
+      "t": "2026-11-13T16:00:00Z",
+      "lat": 30.465,
+      "lon": -41.7139
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -1463,6 +1503,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-13T08:31:10Z"
+    "recupereLe": "2026-11-13T16:40:46Z"
   }
 }
