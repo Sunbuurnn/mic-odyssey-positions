@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-12T12:15:00Z",
-    "lat": 32.2095,
-    "lon": -40.4771,
+    "miseAJour": "2026-11-13T08:00:00Z",
+    "lat": 31.0221,
+    "lon": -41.1449,
     "classementClass40": 38,
-    "vitesseNoeuds": 6.4,
+    "vitesseNoeuds": 3.1,
     "capDegres": 210,
-    "distanceAuButMilles": 1545,
+    "distanceAuButMilles": 1478,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -1352,9 +1352,104 @@
       "lon": -40.4177
     },
     {
-      "t": "2026-11-12T12:15:00Z",
-      "lat": 32.2095,
-      "lon": -40.4771
+      "t": "2026-11-12T12:30:00Z",
+      "lat": 32.1844,
+      "lon": -40.4961
+    },
+    {
+      "t": "2026-11-12T14:15:00Z",
+      "lat": 31.9972,
+      "lon": -40.5977
+    },
+    {
+      "t": "2026-11-12T15:15:01Z",
+      "lat": 31.8931,
+      "lon": -40.6659
+    },
+    {
+      "t": "2026-11-12T16:30:00Z",
+      "lat": 31.7897,
+      "lon": -40.7426
+    },
+    {
+      "t": "2026-11-12T17:30:00Z",
+      "lat": 31.7129,
+      "lon": -40.7983
+    },
+    {
+      "t": "2026-11-12T18:30:00Z",
+      "lat": 31.6454,
+      "lon": -40.8374
+    },
+    {
+      "t": "2026-11-12T19:30:00Z",
+      "lat": 31.5761,
+      "lon": -40.8766
+    },
+    {
+      "t": "2026-11-12T20:30:00Z",
+      "lat": 31.5186,
+      "lon": -40.9174
+    },
+    {
+      "t": "2026-11-12T21:30:00Z",
+      "lat": 31.463,
+      "lon": -40.9561
+    },
+    {
+      "t": "2026-11-12T22:30:00Z",
+      "lat": 31.4034,
+      "lon": -41.0263
+    },
+    {
+      "t": "2026-11-12T23:30:00Z",
+      "lat": 31.3572,
+      "lon": -41.0927
+    },
+    {
+      "t": "2026-11-13T00:30:00Z",
+      "lat": 31.3084,
+      "lon": -41.0934
+    },
+    {
+      "t": "2026-11-13T01:30:00Z",
+      "lat": 31.2635,
+      "lon": -41.0804
+    },
+    {
+      "t": "2026-11-13T02:30:01Z",
+      "lat": 31.2224,
+      "lon": -41.0804
+    },
+    {
+      "t": "2026-11-13T03:45:00Z",
+      "lat": 31.1935,
+      "lon": -41.0993
+    },
+    {
+      "t": "2026-11-13T04:45:00Z",
+      "lat": 31.1731,
+      "lon": -41.1174
+    },
+    {
+      "t": "2026-11-13T05:45:00Z",
+      "lat": 31.1394,
+      "lon": -41.131
+    },
+    {
+      "t": "2026-11-13T06:45:00Z",
+      "lat": 31.09,
+      "lon": -41.1207
+    },
+    {
+      "t": "2026-11-13T07:45:00Z",
+      "lat": 31.0333,
+      "lon": -41.138
+    },
+    {
+      "t": "2026-11-13T08:00:00Z",
+      "lat": 31.0221,
+      "lon": -41.1449
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -1368,6 +1463,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-12T13:04:23Z"
+    "recupereLe": "2026-11-13T08:31:10Z"
   }
 }
