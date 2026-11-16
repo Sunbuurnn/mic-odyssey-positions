@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-15T23:00:00Z",
-    "lat": 27.5154,
-    "lon": -44.7277,
+    "miseAJour": "2026-11-16T06:00:00Z",
+    "lat": 27.2183,
+    "lon": -45.1704,
     "classementClass40": 38,
-    "vitesseNoeuds": 2.9,
-    "capDegres": 298,
-    "distanceAuButMilles": 1206.8,
+    "vitesseNoeuds": 6,
+    "capDegres": 235,
+    "distanceAuButMilles": 1177.3,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -1757,9 +1757,44 @@
       "lon": -44.6882
     },
     {
-      "t": "2026-11-15T23:00:00Z",
-      "lat": 27.5154,
-      "lon": -44.7277
+      "t": "2026-11-15T23:15:00Z",
+      "lat": 27.5177,
+      "lon": -44.7374
+    },
+    {
+      "t": "2026-11-16T00:15:00Z",
+      "lat": 27.5133,
+      "lon": -44.7758
+    },
+    {
+      "t": "2026-11-16T01:15:00Z",
+      "lat": 27.4699,
+      "lon": -44.8287
+    },
+    {
+      "t": "2026-11-16T02:15:00Z",
+      "lat": 27.4006,
+      "lon": -44.8976
+    },
+    {
+      "t": "2026-11-16T03:15:00Z",
+      "lat": 27.3296,
+      "lon": -44.9716
+    },
+    {
+      "t": "2026-11-16T04:15:00Z",
+      "lat": 27.2882,
+      "lon": -45.0455
+    },
+    {
+      "t": "2026-11-16T05:15:00Z",
+      "lat": 27.2585,
+      "lon": -45.1056
+    },
+    {
+      "t": "2026-11-16T06:00:00Z",
+      "lat": 27.2183,
+      "lon": -45.1704
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -1773,6 +1808,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-15T23:56:47Z"
+    "recupereLe": "2026-11-16T06:17:08Z"
   }
 }
