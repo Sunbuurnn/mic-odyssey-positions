@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-18T07:00:00Z",
-    "lat": 23.2421,
-    "lon": -49.9918,
+    "miseAJour": "2026-11-18T16:00:00Z",
+    "lat": 22.4709,
+    "lon": -51.5177,
     "classementClass40": 37,
-    "vitesseNoeuds": 10.3,
-    "capDegres": 232,
-    "distanceAuButMilles": 830.3,
+    "vitesseNoeuds": 10,
+    "capDegres": 225,
+    "distanceAuButMilles": 734.1,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -2035,6 +2035,46 @@
       "t": "2026-11-18T07:00:00Z",
       "lat": 23.2421,
       "lon": -49.9918
+    },
+    {
+      "t": "2026-11-18T08:00:00Z",
+      "lat": 23.1356,
+      "lon": -50.1485
+    },
+    {
+      "t": "2026-11-18T09:00:00Z",
+      "lat": 23.0159,
+      "lon": -50.2924
+    },
+    {
+      "t": "2026-11-18T10:00:00Z",
+      "lat": 22.9098,
+      "lon": -50.451
+    },
+    {
+      "t": "2026-11-18T12:15:00Z",
+      "lat": 22.729,
+      "lon": -50.8487
+    },
+    {
+      "t": "2026-11-18T13:15:00Z",
+      "lat": 22.6838,
+      "lon": -51.0549
+    },
+    {
+      "t": "2026-11-18T14:15:00Z",
+      "lat": 22.6067,
+      "lon": -51.2538
+    },
+    {
+      "t": "2026-11-18T15:15:00Z",
+      "lat": 22.532,
+      "lon": -51.4414
+    },
+    {
+      "t": "2026-11-18T16:00:00Z",
+      "lat": 22.4709,
+      "lon": -51.5177
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -2048,6 +2088,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-18T07:16:43Z"
+    "recupereLe": "2026-11-18T16:39:15Z"
   }
 }
