@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-21T07:00:00Z",
-    "lat": 18.1113,
-    "lon": -59.5402,
+    "miseAJour": "2026-11-21T14:45:00Z",
+    "lat": 17.3523,
+    "lon": -60.4746,
     "classementClass40": 36,
-    "vitesseNoeuds": 9,
-    "capDegres": 222,
-    "distanceAuButMilles": 213.5,
+    "vitesseNoeuds": 10,
+    "capDegres": 243,
+    "distanceAuButMilles": 143.4,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -2382,9 +2382,44 @@
       "lon": -59.514
     },
     {
-      "t": "2026-11-21T07:00:00Z",
-      "lat": 18.1113,
-      "lon": -59.5402
+      "t": "2026-11-21T07:45:00Z",
+      "lat": 18.0333,
+      "lon": -59.623
+    },
+    {
+      "t": "2026-11-21T08:45:00Z",
+      "lat": 17.9357,
+      "lon": -59.7214
+    },
+    {
+      "t": "2026-11-21T09:45:01Z",
+      "lat": 17.8319,
+      "lon": -59.825
+    },
+    {
+      "t": "2026-11-21T11:00:00Z",
+      "lat": 17.7149,
+      "lon": -59.9681
+    },
+    {
+      "t": "2026-11-21T12:00:00Z",
+      "lat": 17.634,
+      "lon": -60.0846
+    },
+    {
+      "t": "2026-11-21T13:00:00Z",
+      "lat": 17.535,
+      "lon": -60.2082
+    },
+    {
+      "t": "2026-11-21T14:00:00Z",
+      "lat": 17.4235,
+      "lon": -60.3526
+    },
+    {
+      "t": "2026-11-21T14:45:00Z",
+      "lat": 17.3523,
+      "lon": -60.4746
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -2398,6 +2433,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-21T07:33:59Z"
+    "recupereLe": "2026-11-21T15:32:52Z"
   }
 }
