@@ -29,13 +29,13 @@
     "mic": "https://www.medtechindustrialcampus.com/"
   },
   "direct": {
-    "miseAJour": "2026-11-22T01:00:00Z",
-    "lat": 16.5129,
-    "lon": -61.597,
+    "miseAJour": "2026-11-22T07:50:00Z",
+    "lat": 16.144,
+    "lon": -61.8262,
     "classementClass40": 36,
-    "vitesseNoeuds": 7.3,
-    "capDegres": 240,
-    "distanceAuButMilles": 61.6,
+    "vitesseNoeuds": 3.5,
+    "capDegres": 197,
+    "distanceAuButMilles": 35.6,
     "_distanceAuButMilles": "Reprendre la valeur du classement officiel. Si null, le site calcule l'orthodromie jusqu'à Pointe-à-Pitre.",
     "statut": "RAC",
     "_statut": "Code officiel : RAC en course, ARV arrivé, RET ou ABD abandon."
@@ -2467,9 +2467,44 @@
       "lon": -61.5409
     },
     {
-      "t": "2026-11-22T01:00:00Z",
-      "lat": 16.5129,
-      "lon": -61.597
+      "t": "2026-11-22T01:30:00Z",
+      "lat": 16.4843,
+      "lon": -61.6499
+    },
+    {
+      "t": "2026-11-22T02:30:00Z",
+      "lat": 16.4242,
+      "lon": -61.7739
+    },
+    {
+      "t": "2026-11-22T03:30:00Z",
+      "lat": 16.3195,
+      "lon": -61.8099
+    },
+    {
+      "t": "2026-11-22T04:30:00Z",
+      "lat": 16.2788,
+      "lon": -61.815
+    },
+    {
+      "t": "2026-11-22T05:30:00Z",
+      "lat": 16.2667,
+      "lon": -61.8155
+    },
+    {
+      "t": "2026-11-22T06:30:00Z",
+      "lat": 16.1996,
+      "lon": -61.8258
+    },
+    {
+      "t": "2026-11-22T07:35:00Z",
+      "lat": 16.1516,
+      "lon": -61.8214
+    },
+    {
+      "t": "2026-11-22T07:50:00Z",
+      "lat": 16.144,
+      "lon": -61.8262
     }
   ],
   "_trace": "Positions successives, de la plus ancienne à la plus récente. Une entrée : { \"t\": \"2026-11-01T18:00:00+01:00\", \"lat\": 48.71, \"lon\": -4.12 }",
@@ -2483,6 +2518,6 @@
     "fournisseur": "Geovoile, cartographie officielle",
     "url": "https://carto.routedurhum.com/fr/index.html?cl=1",
     "bateau": "Mic Odyssey (Jean-baptiste Ternon)",
-    "recupereLe": "2026-11-22T01:12:19Z"
+    "recupereLe": "2026-11-22T07:58:09Z"
   }
 }
